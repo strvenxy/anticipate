@@ -2,7 +2,8 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "01ffc05d-566d-4fcd-9613-0d3b535b7e99"
   },
   "newProjectRoot": "projects",
   "projects": {
@@ -42,6 +43,7 @@
                   "maximumError": "8kB"
                 }
               ],
+              "baseHref": "/anticipate/",
               "outputHashing": "all"
             },
             "development": {
